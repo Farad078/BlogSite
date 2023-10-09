@@ -1,0 +1,64 @@
+.BlogLayout-container {
+    display:flex;
+    gap:50px;
+    margin-left: 25%;
+}
+
+.about-block {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* background: red; */
+    width: 25%;
+    position: fixed;
+    left: 0;
+    
+}
+
+.block-1 {
+    display: flex;
+    flex-direction: column;
+    /* background: rgb(26, 147, 212); */
+    width: 75%;
+    height: 400px;
+}
+
+.pic {
+    background: rgb(124, 52, 117);
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.feature {
+    margin-top: 20px;
+    font-family: 'Mooli';
+    font-size: 14px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgba(0,0,0,0.4);
+}
+
+.title {
+    font-family: 'Mooli';
+    font-size: 24px;
+    text-align: center;
+}
+
+.content {
+    font-family: 'Mooli';
+    font-weight: 200;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.red-filled {
+    color: red;
+    /* background-color:blue; */
+    /* max-width: 8; */
+    padding-right: 10px;
+}
+
+.about-sub {
+    margin: 0 10px 0 10px;
+}

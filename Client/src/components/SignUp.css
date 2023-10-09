@@ -1,0 +1,33 @@
+input {
+  height: 50px;
+}
+
+.containers {
+  /* background-color: red; */
+  padding-inline-start: 30%;
+  padding-inline-end: 30%;
+}
+
+.regBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+  /* align-items: center; */
+}
+
+button:hover {
+  background-color: rgb(3, 39, 131);
+}
+
+.signUp {
+  /* padding-inline-start: 40%;
+  padding-inline-end: 40%; */
+  text-align: center;
+  padding-bottom: 1%;
+  /* padding-top: 10%; */
+}
+
+.red {
+  border: solid red;
+}

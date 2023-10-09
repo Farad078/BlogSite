@@ -1,0 +1,78 @@
+.card-grid {
+  margin-left: 0px;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  z-index: -999;
+  /* background-color: blue; */
+}
+
+.Home-container {
+  padding-top: 60px;
+}
+
+.card-layout {
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  /* z-index: -999; */
+}
+
+.Home-header {
+  /* margin: 0 10px 0 10px; */
+  position: fixed;
+  background: #eff1f5;
+  width: 100%;
+  height: 50px;
+  z-index: 9999;
+  top: 0;
+  margin-right: 10px;
+  padding: 10px 10px 10px 10px;
+  margin: 0 20px 10px 10px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Home-footer {
+  margin: 0 10px 0 10px;
+}
+
+.sponsor {
+  display: flex;
+  background-color: #f0eff4;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.sponsors {
+  display: flex;
+  background-color: #832161;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  color: white;
+  font-weight: 100;
+  padding: 5px 0 5px 0;
+}
+
+.sponsor-org {
+  font-family: "Mooli";
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.sponsor-x {
+  font-size: 17px;
+  margin-bottom: 5px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.org {
+  /* background-color: blue; */
+  display: flex;
+}

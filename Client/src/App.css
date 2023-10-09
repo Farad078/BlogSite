@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Neucha&display=swap");
+
+body {
+  background-color: #f0f2f6;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.input_e {
+  background-color: #ebf1fa;
+  height: 1.2cm;
+}
+
+.email {
+  /* background-color: red; */
+  width: 100%;
+  text-align: center;
+  border: 0px solid transparent;
+  border-top-right-radius: 0px;
+}
+
+.password {
+  /* background-color: blue; */
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  /* background-color:red; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  align-items: center;
+}
+
+.label {
+  margin-bottom: 5px;
+  /* background-color: red; */
+}
+
+.submit_e {
+  position: relative;
+}
+
+.login_g {
+  background-color: #3246bb;
+  color: white;
+  width: 100%;
+  height: 1cm;
+  position: relative;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.input_1 {
+  padding: 10px;
+  border: 1px solid rgb(223, 220, 220);
+  border-radius: 10px 10px 0 0;
+}
+
+.input_2 {
+  padding: 10px;
+  border: 1px solid rgb(223, 220, 220);
+  border-radius: 0 0 10px 10px;
+}
+
+.input1:focus {
+  outline: 1px solid rgb(255, 5, 80);
+  /* backdrop-filter: blur(10px); */
+}
+
+.login {
+  /* background-color: magenta; */
+  width: 45%;
+}
+
+.signup_g {
+  background-color: #3246bb;
+  color: white;
+  width: 100%;
+  height: 1cm;
+  position: relative;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.signup_g:hover,
+.login_g:hover {
+  background-color: rgb(3, 39, 131);
+}
+
+.signup {
+  /* background-color: magenta; */
+  width: 45%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  /* background-color: yellow; */
+  justify-content: space-between;
+}
+
+.err {
+  /* background-color: blue; */
+  display: flex;
+  font-size: 14px;
+  color: red;
+}
+
+.text {
+  /* background-color: yellow; */
+  text-align: center;
+}

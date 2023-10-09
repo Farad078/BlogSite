@@ -1,0 +1,72 @@
+.head-container {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+}
+
+.headContainer {
+    width: 10%;
+}
+
+.navContainer {
+    display: flex;
+    gap: 100px;
+    width: 90%;
+    justify-content: center;
+    
+}
+
+.head_name {
+    position: absolute;
+    font-family: 'Lora';
+    font-size: 20px;
+}
+
+.head_s {
+    font-family: 'Neucha';
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+}
+
+nav a {
+    padding: 6px;
+    text-decoration: none;
+    /* font-size: 18px; */
+    font-weight: normal;
+    color: rgb(11, 8, 182);
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+.link:hover {
+color: Black;
+font-weight: normal;
+width: fit-content;
+}
+
+.nav-first {
+   /* justify-content: start; 
+   gap: 50px;
+   padding-top: 20px;
+   padding-right: 20px;
+   padding-left: 150px; */
+   /* background: red; */
+}
+
+.nav-second {
+   /* justify-content: end; 
+   gap: 10px;
+   padding-right: 20px;
+   padding-top: 20px; */
+   /* background-color: red; */
+}
+
+
+.link {
+    color: rgba(0,0,0, 0.7);
+    padding: 0 20px 0 20px;
+}

@@ -1,0 +1,63 @@
+.myCard {
+  /* background-color: red; */
+  width: 250px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  border-radius: 7px 7px 7px 7px;
+  transition: transform 1s;
+}
+
+.myCard:hover {
+  transform: scale(0.97);
+}
+
+.space {
+  padding: 10px;
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  /* object-position: 0px -70px; */
+}
+
+.cardTitle {
+  display: flex;
+  justify-content: center;
+  /* background-color: blue; */
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 20px;
+  text-decoration: underline;
+}
+
+.cardText {
+  /* background-color: red; */
+  display: flex;
+  height: 100px;
+  font-family: "Lora";
+  font-size: 16px;
+  margin: 0px 10px 0px 10px;
+  padding: 0px 20px 0px 20px;
+  font-weight: 600;
+  text-align: center;
+  font-style: italic;
+  justify-content: center;
+}
+
+.card-date {
+  /* background-color: rgb(223, 124, 124); */
+  font-family: "Lora";
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px 0px 10px;
+  height: 30px;
+  border-top: solid rgba(0, 0, 0, 0.2);
+  margin: 0px 5px 0px 5px;
+}
+
+.cardText-deco {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+}
